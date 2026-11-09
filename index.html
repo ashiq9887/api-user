@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+
+        <h2 class="text-center mb-3">Random User Generator</h2>
+
+        <p class="text-center">Generate random user profiles with just one click!</p>
+
+        <div class="text-center mb-4">
+
+            <input type="number" id="userCount" class="form-control w-25 mx-auto mb-3"
+                placeholder="Number of users" min="1" max="50" value="1">
+
+            <button class="btn btn-primary" onclick="getUsers()">
+                Generate Users
+            </button>
+
+        </div>
+
+        <div class="row" id="userRow">
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

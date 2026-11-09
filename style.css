@@ -1,0 +1,39 @@
+
+body {
+    background-color: #f1f4f9;
+}
+
+h2 {
+    color: #243b55;
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+}
+
+.user-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.user-card h5 {
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+.user-card p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
